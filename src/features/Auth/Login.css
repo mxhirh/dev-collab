@@ -1,0 +1,91 @@
+/* src/features/Auth/Login.css */
+
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #ffffff; /* White background like the feature cards */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: #333; /* Dark text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue heading like landing page */
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .password-container button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .auth-container button[type="submit"],
+  .auth-container button:not([type="button"]) {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Consistent blue */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+  }
+  
+  .auth-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .auth-container .error-text {
+    color: #ff4d4d;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .auth-container .success-text {
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .auth-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #666; /* Slightly lighter text */
+  }
+  
